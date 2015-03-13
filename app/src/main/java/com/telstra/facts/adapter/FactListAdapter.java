@@ -98,7 +98,7 @@ public class FactListAdapter extends BaseAdapter {
                 @Override
                 public void onResponse(ImageLoader.ImageContainer imageContainer, boolean b) {
                     String tag = (String) holder.imgFact.getTag();
-                    if(tag.equals(imageContainer.getRequestUrl()))
+                    if(tag!=null && tag.equals(imageContainer.getRequestUrl()))
                         holder.imgFact.setImageBitmap(imageContainer.getBitmap());
                 }
 
