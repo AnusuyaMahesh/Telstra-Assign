@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Telstra</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="network_error_retry">Problem occured. Please try again...</string>
+    <string name="title">Title not available!</string>
+    <string name="description">No description</string>
+</resources>
